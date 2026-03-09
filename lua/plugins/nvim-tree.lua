@@ -30,7 +30,7 @@ return {
 				highlight_opened_files = "all",
 			},
 			view = {
-				width = "20%",
+				width = "25%",
 				side = "left",
 				signcolumn = "yes",
 			},

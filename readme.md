@@ -1,4 +1,6 @@
-#ÑVIM-Dotfiles
+# NVIM-Dotfiles
+
+ Neovim Config avec Lazy.nvim 
 
 ## Plugins
 - Telescope - Fuzzy Finder
