@@ -1,0 +1,8 @@
+*.swp
+*.swo
+undo/
+view/
+
+*.log
+
+mason/
