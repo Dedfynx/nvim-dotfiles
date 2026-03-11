@@ -27,7 +27,7 @@ return {
 				indent_markers = {
 					enable = true,
 				},
-				highlight_opened_files = "all",
+				highlight_modified = "icon",
 			},
 			view = {
 				width = "25%",
