@@ -17,6 +17,14 @@ return {
 			yaml = { "prettierd", "prettier", stop_after_first = true },
 			markdown = { "prettierd", "prettier", stop_after_first = true },
 		},
+		formatters = {
+			prettier = {
+				prepend_args = { "--tab-width", "4", "--use-tabs", "false" },
+			},
+			prettierd = {
+				prepend_args = { "--tab-width", "4", "--use-tabs", "false" },
+			},
+		},
 		format_on_save = { timeout_ms = 500, lsp_fallback = true },
 	},
 }
