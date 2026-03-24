@@ -7,6 +7,7 @@ vim.opt.smartcase = true
 vim.opt.termguicolors = true
 vim.opt.splitbelow = true
 vim.opt.splitright = true
+vim.opt.buflisted = true
 
 --Clipboard setup
 vim.g.clipboard = {

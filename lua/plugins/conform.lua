@@ -16,8 +16,22 @@ return {
 			json = { "prettierd", "prettier", stop_after_first = true },
 			yaml = { "prettierd", "prettier", stop_after_first = true },
 			markdown = { "prettierd", "prettier", stop_after_first = true },
+			rust = { "rustfmt" },
 		},
 		formatters = {
+			["clang-format"] = {
+				prepend_args = {
+					"--style={ \
+        				BasedOnStyle: Google, \
+        				SortIncludes: false, \
+        				ColumnLimit: 0, \
+        				AllowShortFunctionsOnASingleLine: All, \
+        				IndentWidth: 4, \
+        				NamespaceIndentation: All, \
+        				AlignAfterOpenBracket: DontAlign \
+      					}",
+				},
+			},
 			prettier = {
 				prepend_args = { "--tab-width", "4", "--use-tabs", "false" },
 			},

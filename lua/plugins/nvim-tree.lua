@@ -27,7 +27,7 @@ return {
 				indent_markers = {
 					enable = true,
 				},
-				highlight_modified = "icon",
+				highlight_modified = "all",
 			},
 			view = {
 				width = "25%",
