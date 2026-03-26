@@ -28,6 +28,7 @@ return {
 					enable = true,
 				},
 				highlight_modified = "all",
+				highlight_git = true,
 			},
 			view = {
 				width = "25%",
@@ -35,6 +36,11 @@ return {
 				signcolumn = "yes",
 			},
 			filters = { dotfiles = false },
+			git = {
+				enable = true,
+				ignore = false,
+				timeout = 400,
+			},
 		})
 	end,
 }
