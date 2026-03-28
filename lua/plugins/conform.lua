@@ -17,6 +17,9 @@ return {
 			yaml = { "prettierd", "prettier", stop_after_first = true },
 			markdown = { "prettierd", "prettier", stop_after_first = true },
 			rust = { "rustfmt" },
+			asm = { "asmfmt" },
+			nasm = { "asmfmt" },
+			s = { "asmfmt" },
 		},
 		formatters = {
 			["clang-format"] = {

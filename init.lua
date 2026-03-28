@@ -8,6 +8,9 @@ vim.opt.termguicolors = true
 vim.opt.splitbelow = true
 vim.opt.splitright = true
 vim.opt.buflisted = true
+vim.opt.encoding = "utf-8"
+vim.opt.fileencoding = "utf-8"
+vim.opt.fileencodings = "utf-8,ucs-bom,gb18030,gbk,gb2312,cp936"
 
 --Clipboard setup
 vim.g.clipboard = {
