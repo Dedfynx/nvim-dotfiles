@@ -6,7 +6,7 @@ return {
 			-- config
 			theme = "hyper",
 			config = {
-				week_header = { enable = true },
+				week_header = { enable = false },
 				shortcut = {
 					{ desc = "Projets", group = "@property", action = "Telescope find_files", key = "p" },
 					{ desc = "Nouveau", group = "DiagnosticHint", action = "ene | startinsert", key = "n" },
