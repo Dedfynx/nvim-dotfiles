@@ -31,7 +31,8 @@ return {
         				AllowShortFunctionsOnASingleLine: All, \
         				IndentWidth: 4, \
         				NamespaceIndentation: All, \
-        				AlignAfterOpenBracket: DontAlign \
+        				AlignAfterOpenBracket: DontAlign, \
+					IndentPPDirectives: BeforeHash\
       					}",
 				},
 			},
