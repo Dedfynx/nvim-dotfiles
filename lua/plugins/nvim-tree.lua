@@ -29,6 +29,11 @@ return {
 				},
 				highlight_modified = "all",
 				highlight_git = true,
+				icons = {
+					show = {
+						git = true,
+					},
+				},
 			},
 			view = {
 				width = "25%",
